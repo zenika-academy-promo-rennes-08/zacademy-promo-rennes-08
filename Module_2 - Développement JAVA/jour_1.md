@@ -12,10 +12,25 @@
 ### Utilisation sur bloc-notes
 
 - Création d'un fichier `MaClasse.java`: le fichier doit porter le même nom que la classe qu'il contient
+  
+  public class MaClasse {
+  
+    public static void main (String[] args) {
+      System.out.println ("Bonjour");
+    }
+  }
+
 - Compilation du fichier avec la commande `javac NomDuFichier.java` (`javac MaClasse.java`). Cette commande crée un fichier avec l'extension `.class`
 - Lecture du fichier avec la commande `java NomDeClasse` (`java MaClasse`)
 - Packager en JAR (Java Archive), un archive des classes: `jar cfe MonArchive.jar MaClasse MaClasse.class`. Cela va créer un fichier jar
 - Lancer le JAR avec la commande: `java -jar MonArchive.jar`
+
+
+### Utilisation sur IntelliJ IDEA
+
+-Creation du programme JustePrix 
+-Découverte des méthodes Scanner et Math. Random() qui génère un nombre aléatoire
+-Utilisation des boucles While ou Do While
 
 ### Architecture
 
@@ -39,3 +54,4 @@ Il existe:
 Seront pris en compte:
 - Qualité du code
 - Java Doc
+- Bonnes pratiques de nommage des fichiers, des variables et des paramètres
