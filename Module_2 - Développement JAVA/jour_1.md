@@ -28,9 +28,9 @@
 
 ### Utilisation sur IntelliJ IDEA
 
--Creation du programme JustePrix 
--Découverte des méthodes Scanner et Math. Random() qui génère un nombre aléatoire
--Utilisation des boucles While ou Do While
+- Creation du programme JustePrix 
+- Découverte des méthodes Scanner et Math. Random() qui génère un nombre aléatoire
+- Utilisation des boucles While ou Do While
 
 ### Architecture
 
