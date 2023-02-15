@@ -13,12 +13,12 @@
 
 - Création d'un fichier `MaClasse.java`: le fichier doit porter le même nom que la classe qu'il contient
   
-  public class MaClasse {
+              public class MaClasse {
   
-    public static void main (String[] args) {
-      System.out.println ("Bonjour");
-    }
-  }
+                public static void main (String[] args) {
+                  System.out.println ("Bonjour");
+                }
+              }
 
 - Compilation du fichier avec la commande `javac NomDuFichier.java` (`javac MaClasse.java`). Cette commande crée un fichier avec l'extension `.class`
 - Lecture du fichier avec la commande `java NomDeClasse` (`java MaClasse`)
