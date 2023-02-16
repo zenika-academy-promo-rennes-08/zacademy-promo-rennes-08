@@ -32,6 +32,6 @@
 #### Pour récupérer les modifications appliquées par quelqu'un d'autres:
 1. `git pull` (en se plaçant sur la branche concernée): ca va mettre à jour les documents en local et va créer un merge de branche
 2. Si conflit de merge (modification sur une même ligne), il faut accepter les modifications entrantes
-3. `git reset --hard <brancheDistante>` (`git reset --hard origin/yassir-julien`): pour supprimer le commit du merge et replacer le HEAD sur la banche distante
+3. `git reset --hard <brancheDistante>` (`git reset --hard origin/yassir-julien`): pour supprimer le commit du merge et ainsi mettre à jour la branche locale par rapport à la branche distante
 4. `git log --oneline`: pour vérifier si tout s'est bien passé et l'ordre des commits
   
